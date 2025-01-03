@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Music Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0d1117;
+            color: #ffffff;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            margin: 20px 0;
+            font-size: 2.5rem;
+        }
+        .music-container {
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 800px;
+            background-color: #161b22;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        }
+        .track {
+            margin: 20px 0;
+            padding: 15px;
+            border: 1px solid #ffffff;
+            border-radius: 10px;
+            background-color: #21262d;
+        }
+        .track h3 {
+            margin: 10px 0;
+        }
+        audio {
+            width: 100%;
+            outline: none;
+        }
+        footer {
+            margin-top: 30px;
+            padding: 10px;
+            background-color: #161b22;
+            color: #aaa;
+        }
+    </style>
+</head>
+<body>
+    <h1>My Music Collection</h1>
+
+    <div class="music-container">
+        <!-- Track 1 -->
+        <div class="track">
+            <h3>Track 1: kabir dohe</h3>
+            <audio controls>
+                <source src="C:\Users\arun4\Music\Kabira 2 Kabir Dohe - Jubin Nautiyal.mp3">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+
+        <!-- Track 2 -->
+        <div class="track">
+            <h3>Track 2: Raghupati Rahgav Raja Ram</h3>
+            <audio controls>
+                <source src="C:\Users\arun4\Music\Raghupati Raghav Raja Ram.mp3">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+
+        <!-- Track 3 -->
+        <div class="track">
+            <h3>Track 3: Hanuman chalisa</h3>
+            <audio controls>
+                <source src="C:\Users\arun4\Music\Hanuman Chalisa.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Your Music Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
